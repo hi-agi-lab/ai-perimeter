@@ -10,6 +10,9 @@
 ![tests](https://img.shields.io/badge/tests-45%20passed-brightgreen)
 ![license](https://img.shields.io/badge/license-Commercial-blue)
 
+[![powered by AutoVision](https://img.shields.io/badge/powered%20by-AutoVision-0FDC78)](https://github.com/hi-agi-lab/AutoVision)
+[![pypi](https://img.shields.io/pypi/v/autovision-framework)](https://pypi.org/project/autovision-framework/)
+
 English | **[简体中文](README.md)**
 
 <img src="images/demo_pipeline.gif" alt="Channel pipeline: frame intake → camera health gate → person detection + tracking → ground geometry + rule state machines → evidence / confirm / linkage → signed outbox push" width="760px"/>
@@ -128,3 +131,7 @@ and evaluation reports ship with the repo. Every site must pass Gate-0
 admission (calibration ≤3 px, day/night recall gates, target height
 ≥80 px, health drills ≤60 s) before going live; employee leaving-post
 monitoring requires the site owner's policy basis and prior notice (PIPL).
+
+---
+
+The detection backbone, streaming inference runtime, and export chain of this solution are provided by the open-source framework [AutoVision](https://github.com/hi-agi-lab/AutoVision) (`pip install autovision-framework`); see the [integration design](https://hi-agi-lab.github.io/AutoVision/ecosystem/) for details.

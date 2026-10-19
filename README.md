@@ -11,6 +11,9 @@
 ![tests](https://img.shields.io/badge/tests-45%20passed-brightgreen)
 ![license](https://img.shields.io/badge/license-Commercial-blue)
 
+[![powered by AutoVision](https://img.shields.io/badge/powered%20by-AutoVision-0FDC78)](https://github.com/hi-agi-lab/AutoVision)
+[![pypi](https://img.shields.io/pypi/v/autovision-framework)](https://pypi.org/project/autovision-framework/)
+
 **[English](README_en.md)** | 简体中文
 
 <img src="images/demo_pipeline.gif" alt="通道管线: 取帧 → 健康门 → 人员检测+跟踪 → 地面几何+规则状态机 → 证据/确认/联动 → outbox 签名推送" width="760px"/>
@@ -237,3 +240,7 @@ cd perimeter_guard/deploy && docker compose up -d
 随仓库提供。系统上线前每点位必须通过 Gate-0 准入（标定 ≤3px、昼/夜
 检出基准、视场 ≥80px、健康注入 ≤60s 降级）；员工离岗监控需甲方提供
 制度依据并事先告知（PIPL）。
+
+---
+
+本方案的检测底座、流式推理运行时与导出链路由开源框架 [AutoVision](https://github.com/hi-agi-lab/AutoVision) 提供（`pip install autovision-framework`）；接入设计见[《行业方案接入》](https://hi-agi-lab.github.io/AutoVision/ecosystem/)。
