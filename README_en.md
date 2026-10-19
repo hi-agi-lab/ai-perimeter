@@ -5,7 +5,6 @@
 **Enterprise perimeter defense video analytics: cross-line, forbidden-zone intrusion, loitering and leaving-post — four event types on one perception stack. Ground-plane geometry, fail-safe degradation, zero alert loss.**
 
 ![python](https://img.shields.io/badge/python-3.8%2B-blue)
-![ci](https://img.shields.io/badge/CI-pending-lightgrey)
 ![deps](https://img.shields.io/badge/core%20deps-numpy%20%2B%20opencv-orange)
 ![tests](https://img.shields.io/badge/tests-45%20passed-brightgreen)
 ![license](https://img.shields.io/badge/license-Commercial-blue)
